@@ -1,5 +1,10 @@
 package Dtos;
 
+/**
+ * This class is meant to take the shape of the http request body that
+ * will be sent to the controller for the create and update request 
+ * which will not have the message_id
+ */
 public class MessageDto {
 
     public int posted_by;

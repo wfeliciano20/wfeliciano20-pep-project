@@ -1,5 +1,10 @@
 package Dtos;
 
+/**
+ * This class is meant to take the Account object without it's account_id
+ * that will be sent through the http requests body like in the register 
+ * endpoint
+ */
 public class AccountDto {
     private String username;
     private String password;
